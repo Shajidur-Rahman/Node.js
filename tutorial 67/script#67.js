@@ -1,6 +1,6 @@
 const http = require('http')
 const fs = require('fs')
-const { url } = require('node:inspector')
+
 const home = fs.readFileSync('node.html')
 const contuct = fs.readFileSync('contuct.html')
 const about = fs.readFileSync('about.html')
@@ -12,18 +12,18 @@ const port = '3000'
 
 const server = http.createServer((req, res)=>{
     console.log(req.url);
-    url2 = req.url;
+    url = req.url;
     res.statusCode = 200;
     res.setHeader('Contant-type', 'text/html')
 
 
-    if (url2 == '/'){
+    if (url == '/'){
         res.end(home);
     }
-    else if (url2 == '/contuct'){
+    else if (url == '/contuct'){
         res.end(contuct);
     }
-    else if (url2 == '/about'){
+    else if (url == '/about'){
         res.end(about);
     }
     else{
@@ -31,7 +31,7 @@ const server = http.createServer((req, res)=>{
         res.end('404 not found')
     }
 
-    
+
 })
 
 server.listen(port, hostname, ()=>{
