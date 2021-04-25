@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shajidur Gym</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .header {
+            background-color: black;
+            margin-top: 0%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background-image: url('https://source.unsplash.com/user/erondu/1600x900');
+            background-image: cover;
+            background-repeat: no-repeat;
+        }
+
+        .left {
+            position: absolute;
+            /* left: 30px; */
+            top: 0px;
+            /* display: inline-block; */
+            /* border: 2px solid red; */
+        }
+
+        .left img {
+            height: 49px;
+            width: 52px;
+        }
+
+        .mid {
+            display: block;
+            /* width: 40%; */
+            margin: 0px auto;
+            /* border: 2px solid red; */
+            padding: 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+
+        }
+
+        .right {
+            /* position: absolute; */
+            /* right: 30px; */
+            top: 0px;
+            display: inline-block;
+            /* border: 2px solid red; */
+
+        }
+
+
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            color: salmon;
+            background-color: rgb(6, 29, 51);
+        }
+
+        .nevbar {
+            display: inline-block;
+        }
+
+        .nevbar li {
+            display: inline-block;
+            padding-left: 20px;
+            position: relative;
+            text-align: center;
+            margin: auto;
+        }
+        .nevbar ul li a{
+            display: flex;
+            flex-direction: column  ;
+        }
+
+        /* .mid:hover {
+            background-color: rgb(0, 162, 255);
+            background-color: black;
+        } */
+        .mid.active {
+            color: blue;
+        }
+
+/* 
+        .left div {
+            text-align: center;
+        } */
+
+        .btn:hover {
+            background-color: gray;
+        }
+
+        .btn {
+            margin: 10px;
+        }
+
+        .right:hover {
+            background-color: black;
+        }
+
+        .container {
+            /* border: 2px solid green; */
+            margin-top: 130px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+        }
+
+        .first-form {
+            height: 33px;
+            width: 280px;
+        }
+
+        .from-group input {
+            text-align: center;
+            display: block;
+            width: 280px;
+            margin: 3px auto;
+        }
+
+        #p{
+            font-size: 2rem;
+            text-align: center;
+            /* display: flex;
+            justify-content: center;
+            align-items: center;
+            display: block; */
+            margin-left: 4.5rem;
+        }
+
+        @media (max-width:470px) {
+
+           
+              .nevbar li {
+            display: inline-block;
+            padding-left: 5px;
+            position: relative;
+            text-align: center;
+            margin: auto;
+        }
+        }
+          @media (max-width:304px) {
+          
+          
+           .left img {
+                height: 68px;
+                width: 70px;
+            }
+          }
+
+        /* @media (max-width: 400px){
+            #box1{
+                display: block;
+            }
+        } */
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- left box for logo -->
+            <img class="img1" src="img/gym-logo.jpg" alt="">
+            <div class="firstp">
+                <p id="p">Shajidur's Fitness</p>
+            </div>
+
+
+        </div>
+        <div class="mid">
+            <!-- mid box fot nevbar -->
+            <nevbar class="nevbar">
+                <ol>
+                    <li>
+                        <a href="#">Home</a>
+
+                    </li>
+                    <li>
+                        <a href="#">About us</a>
+
+                    </li>
+                    <li>
+                        <a href="#">Fitness cal</a>
+
+                    </li>
+                    <li>
+                        <a href="#">Contuct us</a>
+
+                    </li>
+                </ol>
+            </nevbar>
+            <a href="#"></a>
+        </div>
+        <!-- <div class="right">
+            
+            <button class="btn">Class us</button>
+
+            <button class="btn">Email us</button>
+
+        </div> -->
+    </header>
+    <div class="container">
+        <h1>Join the best Gym of Dinajpur</h1>
+        <form action="nophp.php">
+            <div class="from-group">
+                <input type="text" name="" placeholder="Enter your name" class="first-form">
+            </div>
+            <div class="from-group">
+                <input type="number" name="" placeholder="Enter your Age" class="first-form">
+            </div>
+            <div class="from-group">
+                <input type="text" name="" placeholder="Enter your Gender" class="first-form">
+            </div>
+            <div class="from-group">
+                <input type="text" name="" placeholder="Enter your Heigth" class="first-form">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

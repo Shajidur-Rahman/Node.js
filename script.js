@@ -15,21 +15,21 @@ function server() {
   });
 }
 
-
+server()
 
 // modules
 
-console.log('name')
+// console.log('name')
 
-// read and right 
-const fs = require('fs');
-let read = fs.readFileSync('node.txt', 'utf-8');
-read = read.replace('this is js', 'this is python')
-console.log(read);
+// // read and right 
+// const fs = require('fs');
+// let read = fs.readFileSync('node.txt', 'utf-8');
+// read = read.replace('this is js', 'this is python')
+// console.log(read);
 
-console.log('creating a new file')
-fs.writeFileSync('node2.txt', 'Text')
+// console.log('creating a new file')
+// fs.writeFileSync('node2.txt', 'Text')
 
 
-const readwrite = require('fs')
-let read1 = readwrite.writeFileSync('node3.txt', 'Hello World my name is shajidur rahman')
+// const readwrite = require('fs')
+// let read1 = readwrite.writeFileSync('node3.txt', 'Hello World my name is shajidur rahman')
