@@ -1,0 +1,17 @@
+{
+  "name": "tutorial69",
+  "version": "1.0.0",
+  "description": "this is tutorial 69 which is i am learning",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "good"
+  ],
+  "author": "Shajidur",
+  "license": "ISC",
+  "dependencies": {
+    "slugify": "^1.5.0"
+  }
+}
