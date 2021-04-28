@@ -6,4 +6,4 @@ tutorial 67 finished
 tutorial 68 finished
 tutorial 69 finished
 tutorial 70 finished
-tutorial 71 started
+tutorial 71 finished
