@@ -1,0 +1,17 @@
+{
+  "name": "shjidur",
+  "version": "1.0.0",
+  "description": "it is a tutorial of express which i learning",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "shaidur"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
