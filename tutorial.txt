@@ -7,3 +7,5 @@ tutorial 68 finished
 tutorial 69 finished
 tutorial 70 finished
 tutorial 71 finished
+tutorial 72 finished
+tutorial 73 started
