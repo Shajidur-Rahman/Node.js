@@ -9,8 +9,10 @@ app.use('/static', express.static('static'))
 // app.set('view engine', 'pug')
 
 // ENDING POINT
+
+const send = {'title':'this is written by pug ', 'contant':'lorem34'};
 app.get('/', (red, res)=>{
-    res.status(200).render('index.pug');
+    res.status(200).render('index.pug', send);
 })
 
 // STARTING THE SERVER 

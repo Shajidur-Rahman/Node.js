@@ -9,7 +9,7 @@ app.use('/static', express.static('static'))
 app.set('view engine', 'pug')
 
 // ENDING POINT
-app.get.apply('/', (req, res)=>{
+app.get('/', (req, res)=>{
     res.status(200).send('my name is shajidur rahman')
 })
 
