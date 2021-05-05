@@ -10,4 +10,10 @@ tutorial 71 finished
 tutorial 72 finished
 tutorial 73 finished
 tutorial 74 finished
-tutorial 75 started
+tutorial 75 finished
+
+tutorial 76 not
+tutorial 77 not
+tutorial 78 not
+tutorial 79 not
+tutorial 80 started
