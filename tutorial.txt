@@ -18,4 +18,6 @@ tutorial 78 not
 tutorial 79 not
 tutorial 80 finished
 tutorial 81 finished
-tutorial 82 started
+tutorial 82 finished
+tutorial 83 finished
+tutorial 84 started
