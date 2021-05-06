@@ -20,4 +20,5 @@ tutorial 80 finished
 tutorial 81 finished
 tutorial 82 finished
 tutorial 83 finished
-tutorial 84 started
+tutorial 84 finished
+tutorial 85 started
