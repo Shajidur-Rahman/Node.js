@@ -29,3 +29,5 @@ tutorial 83 finished
 tutorial 84 finished
 tutorial 85 finished
 tutorial 86 finished
+tutorial 87 finished (corona map)
+tutorial 88 started
